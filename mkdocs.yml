@@ -4,11 +4,10 @@ repo_name: Python Project Wizard
 nav:
   - Introduction: index.md
   - Tutorial: tutorial.md
-  - Console script: console_script_setup.md
   - Release checklist: pypi_release_checklist.md
   - FAQ: faq.md
   - History: history.md
-  
+
 theme:
   name: material
   language: en

@@ -36,9 +36,6 @@ packages = [
 
 [tool.poetry.dependencies]
 python = ">=3.6.1,<4.0"
-{%- if cookiecutter.command_line_interface|lower == 'fire' %}
-fire = "0.4.0"
-{%- endif %}
 
 black  = { version = "20.8b1", optional = true}
 isort  = { version = "5.6.4", optional = true}
@@ -79,11 +76,6 @@ doc = [
     "mkdocs-material-extension",
     "mkdocs-autorefs"
     ]
-
-{% if cookiecutter.command_line_interface|lower == 'fire' -%}
-[tool.poetry.scripts]
-{{ cookiecutter.project_slug }} = '{{ cookiecutter.project_slug }}.cli:main'
-{%- endif %}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

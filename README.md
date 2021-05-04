@@ -1,6 +1,6 @@
 # Python Project Wizard
 
-A tool for creating skeleton python project, built with popular develop tools and 
+A tool for creating skeleton python project, built with popular develop tools and
 conform to best practice.
 
 [![Version](http://img.shields.io/pypi/v/ppw?color=brightgreen)](https://pypi.python.org/pypi/ppw)
@@ -23,7 +23,6 @@ This tool will create Python project with the following features:
 * Lint code with [Flake8] and [Flake8-docstrings]
 * [Pre-commit hooks]: Formatting/linting anytime when commit/run local tox/CI
 * [Mkdocstrings]: Auto API doc generation
-* Command line interface using [Python Fire] (optional)
 * Continuouse Integration/Deployment by [github actions], includes:
     - publish dev build/official release to TestPyPI/PyPI automatically when CI success
     - publish documents automatically when CI success
@@ -61,7 +60,6 @@ This repo is forked from [audreyr/cookiecutter-pypackage](https://github.com/aud
 [flake8]: https://flake8.pycqa.org
 [flake8-docstrings]: https://pypi.org/project/flake8-docstrings/
 [mkdocstrings]: https://mkdocstrings.github.io/
-[Python Fire]: https://github.com/google/python-fire
 [github actions]: https://github.com/features/actions
 [Git Pages]: https://pages.github.com
 [Pre-commit hooks]: https://pre-commit.com/

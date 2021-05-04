@@ -10,7 +10,6 @@
 * Lint code with [Flake8] and [Flake8-docstrings]
 * [Pre-commit hooks]: Formatting/linting anytime when commit/run local tox/CI
 * [Mkdocstrings]: Auto API doc generation
-* Command line interface using [Python Fire] (optional)
 * Continuouse Integration/Deployment by [github actions], includes:
     - publish dev build/official release to TestPyPI/PyPI automatically when CI success
     - publish documents automatically when CI success
@@ -28,7 +27,6 @@
 [flake8]: https://flake8.pycqa.org
 [flake8-docstrings]: https://pypi.org/project/flake8-docstrings/
 [mkdocstrings]: https://mkdocstrings.github.io/
-[Python Fire]: https://github.com/google/python-fire
 [github actions]: https://github.com/features/actions
 [Git Pages]: https://pages.github.com
 [Pre-commit hooks]: https://pre-commit.com/

@@ -1,16 +1,7 @@
 #!/usr/bin/env python
 """Tests for `{{ cookiecutter.project_slug }}` package."""
 # pylint: disable=redefined-outer-name
-
-{% if cookiecutter.use_pytest == 'y' -%}
 import pytest
-
-{%- else -%}
-import unittest
-
-{%- endif %}
-
-{%- if cookiecutter.use_pytest == 'y' %}
 
 
 @pytest.fixture
@@ -28,18 +19,3 @@ def test_content(response):
     # from bs4 import BeautifulSoup
     # assert 'GitHub' in BeautifulSoup(response.content).title.string
     del response
-{%- else %}
-
-
-class Test{{ cookiecutter.project_slug|title }}(unittest.TestCase):
-    """Tests for `{{ cookiecutter.project_slug }}` package."""
-
-    def setUp(self):
-        """Set up test fixtures, if any."""
-
-    def tearDown(self):
-        """Tear down test fixtures, if any."""
-
-    def test_000_something(self):
-        """Test something."""
-{%- endif %}

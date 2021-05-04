@@ -7,7 +7,6 @@
   "project_short_description": "Skeleton project created by Python Project Wizard (ppw)",
   "pypi_username": "{{ cookiecutter.github_username }}",
   "version": "0.1.0",
-  "use_pytest": "y",
   "add_pyup_badge": "n",
   "create_author_file": "y",
   "open_source_license": ["MIT", "BSD-3-Clause", "ISC", "Apache-2.0", "GPL-3.0-only", "Not open source"],

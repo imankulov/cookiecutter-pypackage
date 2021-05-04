@@ -5,7 +5,6 @@
     'Apache-2.0': 'License :: OSI Approved :: Apache Software License',
     'GPL-3.0-only': 'License :: OSI Approved :: GNU General Public License v3 (GPLv3)'
 } -%}
-[tool]
 [tool.poetry]
 name = "{{ cookiecutter.project_slug }}"
 version = "{{ cookiecutter.version }}"

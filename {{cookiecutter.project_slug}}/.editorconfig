@@ -1,5 +1,4 @@
 # http://editorconfig.org
-
 root = true
 
 [*]
@@ -13,6 +12,9 @@ end_of_line = lf
 [*.bat]
 indent_style = tab
 end_of_line = crlf
+
+[*.{json,yaml,yml}]
+indent_size = 2
 
 [LICENSE]
 insert_final_newline = false
